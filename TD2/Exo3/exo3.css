@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+.header  {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102,130,133);
+    color:white;
+    padding: 15px;   
+}
+
+.header span {
+    top:0%;
+}
+
+.container-grid {
+    border-bottom: 12px solid white;
+    border-top: 12px solid white;
+    display:grid;
+    grid-template-columns: 0.25fr 2fr;
+    background-color: rgb(185, 215, 217);
+}
+
+.bordure{
+    border-right: 20px solid white;
+}
+
+.container {
+    border-left: 10px solid rgb(244,235,194);
+    background-color: rgb(244,235,194);
+    color:black;
+}
+
+.container h1,h2 {
+    margin-bottom: 0;
+}
+
+.container p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container li {
+    list-style: square;
+}
+
+
+.tail {
+    text-align: center;
+    background-color: rgb(102,130,133);
+    color: white;
+    padding: 15px;
+}

@@ -1,0 +1,17 @@
+li {
+   list-style: none;
+}
+li::before {
+    content: "\25A0"; /* Utilisation du caractère Unicode pour un carré (square) */
+    display: inline-block;
+    margin-right: 5px; /* Ajoutez un espace entre la puce et le texte si nécessaire */
+    transform: rotate(45deg); /* Rotation de 45 degrés */
+}
+
+a:link {
+    color : blue;
+}
+
+a:visited {
+    color : purple;
+}

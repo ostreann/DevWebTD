@@ -1,0 +1,73 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    border-radius: 5px 5px 0 0;
+}
+
+.menu-item a {
+    background: linear-gradient(to right, rgb(122, 111, 4), #ffa909);
+}
+
+/* Ajout des couleurs aux premiers menus */
+.menu1 a {
+    background: linear-gradient(to right, rgb(92, 83, 2), #FFD700);
+}
+
+.menu2 a {
+    background: linear-gradient(to right, rgb(92, 83, 2), #FFD700);
+}
+
+.menu3 a {
+    background: linear-gradient(to right, rgb(92, 83, 2), #FFD700);
+}
+
+.submenu,
+.sub-submenu {
+    display: none;
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, white,#FFD700);
+}
+
+.submenu {
+    top: 100%;
+    left: 0;
+}
+
+.sub-submenu {
+    top: 0;
+    left: 100%;
+}
+
+.menu-item:hover .submenu {
+    display: inline-block;
+}
+
+.submenu a {
+    background: linear-gradient(to right, white, #FFD700); /* Dégradé du blanc au jaune pour les sous-menus */
+    border-radius: 0 0 5px 5px;
+}
+
+.sub-submenu a {
+    background: linear-gradient(to right, white, #FFD700); /* Dégradé du blanc au jaune pour les sous-sous-menus */
+    border-radius: 0 0 5px 5px;
+}
+
+.submenu:hover .sub-submenu {
+    display: inline-block;
+}
