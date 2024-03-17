@@ -1,0 +1,65 @@
+* {
+    background-color: rgb(102,130,133);
+}
+
+.Main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 2px solid black; 
+    background-color: beige;
+}
+
+.Main * {
+    background-color: beige;
+    text-align: center;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.Main h1 {
+    margin-bottom: 20px;
+}
+
+#price {
+    color: rgb(104, 104, 8);
+}
+
+.Shop  {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Shop *{
+    text-align: center;
+    background-color: beige;
+}
+
+#Source img, #Destination img {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left:    auto;
+}
+
+#Source, #Destination {
+    width: 30%;
+    border: 2px solid black; 
+    background-color: beige;
+}
+
+#Source{
+    margin-left: 200px;
+}
+
+#Destination {
+    margin-right: 200px;
+}
+
+#NomAlbum {
+    margin-top: 20px;
+}

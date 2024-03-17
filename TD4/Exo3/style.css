@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    }
+
+
+#array-container {
+    background-color: brown;
+    border: 2px dotted yellow;
+    color: orange;
+    text-align: center;
+    padding: 15px; /* Ajoutez un rembourrage pour améliorer l'apparence */
+}
+
+#array-new {
+    background-color: brown;
+    border: 2px dotted yellow;
+    color: orange;
+    text-align: center;
+    padding: 15px; /* Ajoutez un rembourrage pour améliorer l'apparence */
+}
