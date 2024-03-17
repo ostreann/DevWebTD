@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exo1</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align: left;">Enregistrement d'un utilisateur</td>
+                </tr>
+                <tr>
+                    <td><label for="firstname">Nom</label></td>
+                    <td><input type="text" name="firstname"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Prénom</label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>        
+                    <td rowspan="2">Sexe</td>
+                    <td><label for="gender">Homme:</label><input type="radio" name="gender" value="male">
+                </tr>
+                <tr>
+                    <td><label for="gender">Femme:</label><input type="radio" name="gender" value="female"></td>
+                </tr>
+                <tr>
+                    <td>Fonction</td>
+                    <td>
+                        <select name="Fonction">
+                            <option value="Enseignant">Enseignant</option>
+                            <option value="Eleve">Eleve</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Commentaires</td>
+                    <td><textarea placeholder="Tapez ici vos Commentaires" cols="20" rows="4" id="msg" name="user"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+

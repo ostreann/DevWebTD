@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exo2</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="exo2.css">
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="6" style="text-align: center;">Veuillez saisir vos coordonnées dans le formulaire ci-dessous</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="Civil" value="Monsieur" id="monsieur"> 
+                        <label for="monsieur">M.</label>
+                        <input type="radio" name="Civil" value="Madame" id="madame"> 
+                        <label for="madame">Mme</label>
+                        <input type="radio" name="Civil" value="Mademoiselle" id="mademoiselle"> 
+                        <label for="mademoiselle">Mlle</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Nom">Nom:</label>
+                        <input type="text" name="Nom" id="Nom">
+                    
+                        <label for="Prénom">Prénom:</label>
+                        <input type="text" name="Prénom" id="Prénom">
+                    
+                        <label for="Société">Société:</label>
+                        <input type="text" name="Société" id="Société">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <label for="Rue">N° et rue:</label>
+                        <input type="text" name="Rue" id="Rue" size="70">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Code">Code Postal:</label>
+                        <input type="text" name="Code Postal" id="Code" size="6" maxlength="5">
+                    
+                        <label for="Ville">Ville:</label>
+                        <input type="text" name="Ville" id="Ville" size="50">
+                    
+                        <select name="Pays">
+                            <option value="Angleterre">Angleterre</option>
+                            <option value="Allemagne">Allemagne</option>
+                            <option value="Australie">Australie</option>
+                            <option value="France" selected>France</option>
+                            <option value="Italie">Italie</option>
+                            <option value="Japon">Japon</option>
+                            <option value="USA">USA</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <label for="">Votre message</label>
+                        <textarea placeholder="" rows="6" cols="45" ></textarea> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">Adresse E-Mail</label>
+                        <input type="text" name="mail" id="mail" size="40">
+                    <input type="submit" value="Valider"><input type="reset"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
