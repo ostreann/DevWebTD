@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Exo Magasin</Title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Exo2.css">
+        <script src="Exo2.js"></script>
+    </head>
+    <body>
+        <div class="Main">
+            <h1>Magasin de disques</h1>
+            <p>Tous les disques à 7€50!!!</p>
+            <p>cliquez sur l'image pour (dé)sélectionner un album</p>
+            <p>Montant du panier:<span id="price"> 0.00 </span></p>
+        </div>
+        <div class="Shop">
+            <div id="Source">
+                <h1>Albums disponibles</h1>
+                <img src="img/Naps1.jpg" alt="En temps réel" id="album1" onclick="goTo('album1')">
+                <img src="img/Naps2.jpg" alt="La TN" id="album2" onclick="goTo('album2')">
+                <img src="img/Naps3.jpg" alt="A l'instinct" id="album3" onclick="goTo('album3')">
+                <img src="img/Naps4.jpg" alt="On est fait pour ça" id="album4" onclick="goTo('album4')">
+                <img src="img/Naps5.jpg" alt="Pochon bleu" id="album5" onclick="goTo('album5')">
+                <img src="img/Naps6.jpg" alt="Carré VIP" id="album6" onclick="goTo('album6')">
+            </div>
+            <div id="Destination">
+                <h1>Albums Choisis</h1>
+                <p id="name">Nom de l'album</p>      
+            </div>
+        </div>
+    </body>
+</html>
